@@ -28,7 +28,7 @@
                
                 axios.get("https://localhost:3000/suggest", 
                 {
-                    params :{query: inputValue}
+                    "params" :{"query": inputValue}
                 }).then
                 (response => {
                     let Suggestions = response.data;
